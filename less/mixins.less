@@ -1,1 +1,19 @@
 // Mixins Here
+.flex(@direction, @justification, @alignment) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justification;
+    align-items: @alignment;
+}
+
+.button(@width, @height, @font-size) {
+    .flex(row, center, center);
+
+    width: @width;
+    height: @height;
+    font-size: @font-size;
+    background: @btn-bg-color;
+    border-radius: 5px;
+    font-family: @nav-font;
+    color: @porcelain;
+}
