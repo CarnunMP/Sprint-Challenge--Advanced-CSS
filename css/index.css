@@ -322,9 +322,46 @@ footer {
   height: auto;
   border-radius: 10px;
 }
-.sign-in {
-  display: none;
-}
 nav a {
   text-decoration: none;
+}
+.sign-in {
+  height: 87vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-center;
+}
+.sign-in .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 15%;
+}
+.sign-in .text h2 {
+  margin-bottom: 5%;
+}
+.sign-in .text h4 {
+  line-height: 1.5rem;
+}
+.sign-in .form-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.sign-in .form-box .form-element {
+  font-family: #454A59;
+  color: #23293B;
+  font-size: 1.5rem;
+}
+.sign-in .form-box .form-element input {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.sign-in .form-box .form-element:nth-of-type(3) {
+  margin-top: 2rem;
 }

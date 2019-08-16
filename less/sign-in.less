@@ -3,3 +3,44 @@ nav {
         text-decoration: none;
     }
 }
+
+.sign-in {
+    height: 87vh; // Couldn't figure out how to take up the height of the screen!
+    width: 50%;
+
+    .flex(column, center, flex-center);
+
+    .text {
+        .flex(column, flex-start, flex-start);
+        margin-bottom: 15%;
+
+        h2 {
+            margin-bottom: 5%;
+        }
+
+        h4 {
+            line-height: 1.5rem;
+        }
+    }
+
+    .form-box {
+        width: 100%;
+        .flex(column, flex-start, flex-start);
+        // background: red;
+
+        .form-element {
+            font-family: @nav-font;
+            color: @ebony-clay;
+            font-size: 1.5rem;
+
+            input {
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+
+            &:nth-of-type(3) {
+                margin-top: 2rem;
+            }
+        }
+    }    
+}
