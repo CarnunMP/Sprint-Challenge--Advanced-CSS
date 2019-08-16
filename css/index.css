@@ -322,3 +322,6 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.sign-in {
+  display: none;
+}
